@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Animated StatusBar Labels"/>
+    <PreferenceScreen android:title="Label Option" android:key="labelopt">
+        <intent android:targetPackage="com.tenten" android:action="android.intent.action.MAIN" android:targetClass="com.tenten.MyActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Picture Option" android:key="picopt">
+        <intent android:targetPackage="com.tenten" android:action="android.intent.action.MAIN" android:targetClass="com.tenten.LenoxPicOpt" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="Custom PlatLogo"/>
+    <Preference android:key="custom_platlogo" android:title="Custom PlatLogo"/>
+    <Preference android:key="custom_toast" android:title="Custom Toast text"/>
+    <PreferenceCategory android:title="Music Lock Controls"/>
+    <ListPreference android:key="Behavior" android:title="Hide/Show Controls" android:entries="@array/behavior_entries" android:entryValues="@array/behavior_values" android:defaultValue="2"/>
+    <CheckBoxPreference android:key="hidetrackname" android:title="Hide Trackname"/>
+    <CheckBoxPreference android:key="hidealbumart" android:title="Hide Album Art"/>
+    <PreferenceCategory android:title="Sensors"/>
+    <CheckBoxPreference android:key="proximity" android:title="Disable Proximity Lock"/>
+    <CheckBoxPreference android:key="advance" android:title="Advance Clearing RAM"/>
+    <PreferenceCategory android:title="Others" />
+    <PreferenceScreen android:title="Super Custom" android:key="supercustom">
+        <intent android:targetPackage="com.tenten" android:action="android.intent.action.MAIN" android:targetClass="com.tenten.tenten2" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="PxL Things" android:key="pxlthing">
+        <intent android:targetPackage="com.tenten" android:action="android.intent.action.MAIN" android:targetClass="com.tenten.PxLThing" />
+    </PreferenceScreen>
+</PreferenceScreen>

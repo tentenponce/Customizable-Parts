@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Customizable Parts</string>
+    <string name="pref_dialog_color_picker_alpha">alpha</string>
+    <string name="msg_color_picker">Tap on center color to confirm.\nPress back to cancel</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:gravity="center_horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public ID Name"
+                android:textSize="15dp" android:textColor="#ffffff" android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" android:id="@+id/blah"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idname" android:layout_gravity="center_horizontal" android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Package Name"
+                android:textSize="15dp" android:textColor="#ffffff" android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/packagename" android:layout_gravity="center_horizontal" android:text="com.android"
+                android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                />
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:gravity="center_horizontal"
+                android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                >
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visible"
+                    android:id="@+id/visible" android:layout_marginRight="10dp"/>
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invisible"
+                    android:id="@+id/invisible" android:layout_marginRight="10dp"/>
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gone"
+                    android:id="@+id/gone"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/ok" android:layout_gravity="center_horizontal" android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false" android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>

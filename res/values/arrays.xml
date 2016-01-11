@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pxlhandle_entries">
+        <item>Default</item>
+        <item>Hide</item>
+        <item>Custom Image</item>
+    </string-array>
+    <string-array name="pxlhandle_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="handle_entries">
+        <item>Normal/None</item>
+        <item>fitXY</item>
+    </string-array>
+    <string-array name="handle_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="behavior_entries">
+        <item>Show Always</item>
+        <item>Hide Always</item>
+        <item>Default</item>
+    </string-array>
+    <string-array name="behavior_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="labeltextstyle_entries">
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold Italic</item>
+        <item>No Style</item>
+    </string-array>
+    <string-array name="labeltextstyle_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="labeltextsize_entries">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+</resources>

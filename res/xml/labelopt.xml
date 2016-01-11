@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/label"/>
+    <CheckBoxPreference android:title="Animate" android:key="tenanim"/>
+    <Preference android:key="tentext1" android:title="Set First Label"/>
+    <Preference android:key="tentext2" android:title="Set Second Label"/>
+    <ListPreference android:title="Label TextSize" android:key="tensize" android:entries="@array/labeltextsize_entries" android:entryValues="@array/labeltextsize_entries"/>
+    <ListPreference android:title="Label TextStyle" android:key="tenstyle" android:entries="@array/labeltextstyle_entries" android:entryValues="@array/labeltextstyle_values"/>
+    <Preference android:title="Label TextColor" android:key="tencolor"/>
+    <CheckBoxPreference android:title="Random Color" android:key="tenrandom"/>
+    <Preference android:title="First Random Color" android:key="tencolor1"/>
+    <Preference android:title="Second Random Color" android:key="tencolor2"/>
+    <Preference android:title="Third Random Color" android:key="tencolor3"/>
+</PreferenceScreen>

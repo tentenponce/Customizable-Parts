@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/pic"/>
+    <CheckBoxPreference android:title="Animate" android:key="picanim"/>
+    <CheckBoxPreference android:title="Hide Picture" android:key="pichide"/>
+    <Preference android:key="picanim1" android:title="Set First Picture"/>
+    <Preference android:key="picanim2" android:title="Set Second Picture"/>
+</PreferenceScreen>

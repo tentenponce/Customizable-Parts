@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Header, Weather, BSlider Background" android:key="pxlwbhbg"/>
+    <Preference android:title="Notification/Ongoing Background" android:key="pxlbgnotif"/>
+    <CheckBoxPreference android:title="Hide Carrier Label" android:key="hidecarrier"/>
+    <ListPreference android:title="Close Drag Handle" android:key="pxlhandle" android:entries="@array/pxlhandle_entries" android:entryValues="@array/pxlhandle_values" android:defaultValue="0"/>
+    <ListPreference android:title="Handle ScaleType" android:key="pxlhandlescale" android:entries="@array/handle_entries" android:entryValues="@array/handle_values" android:defaultValue="0"/>
+</PreferenceScreen>
